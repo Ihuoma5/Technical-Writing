@@ -22,10 +22,9 @@
   .main-section{
     margin-left:13.7em;
     }
-  @media and screen(max-width:750px){
+  @media(max-width:750px){
     di.main-body{
       grid-template-columns:1fr;
-      grid-template-areas:"navbar" "maincontent";
     }
   
   #navbar{
